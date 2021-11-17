@@ -42,6 +42,28 @@ public class Cycle : MonoBehaviour
     void Update()
     {
         ChangeSceneName();
+        SceneLeft();
+        SceneRight();
+        Quit();
+    }
+
+    private void SceneRight()
+    {
+        if(Input.GetKeyDown(rightKey))
+        {
+            if(SceneManager.GetActiveScene().buildIndex - 1 == -1)
+            {
+                SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings-1);
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            }
+        }
+    }
+
+    private void SceneLeft()
+    {
         if(Input.GetKeyDown(leftKey))
         {
             if(SceneManager.GetActiveScene().buildIndex + 1 == SceneManager.sceneCountInBuildSettings)
@@ -53,16 +75,17 @@ public class Cycle : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
-        if(Input.GetKeyDown(rightKey))
+    }
+
+    /// <summary> Basic Quit function to exit the game on "Esc". </summary>
+    private void Quit()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
         {
-            if(SceneManager.GetActiveScene().buildIndex - 1 == -1)
-            {
-                SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings-1);
-            }
-            else
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-            }
+            Application.Quit();
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #endif
         }
     }
 }

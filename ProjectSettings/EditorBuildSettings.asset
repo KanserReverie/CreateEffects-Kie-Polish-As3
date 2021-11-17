@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Create Effects/Shader - Cosmic Effect/Cosmic Scene.unity
     guid: dbbccd478ae6e894b86ce569babb96f6
   - enabled: 1
-    path: Assets/Create Effects/Shader - Echolocation/Echolocation Effect.unity
+    path: Assets/Create Effects/Shader - Echolocation/Echolocation.unity
     guid: 6dd8e77b45b8b0e4c826dce1e5725af9
   - enabled: 1
     path: Assets/Create Effects/Shader - Moss Effect/MossEffect Scene.unity
@@ -39,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Create Effects/Particle Effect - Fireflies Particles/FireFlies.unity
     guid: 4dde830432f6f6849a222bfe8c9adb49
   - enabled: 1
-    path: Assets/Create Effects/Particle Effect - LightShow/MagicParticleEffects.unity
+    path: Assets/Create Effects/Particle Effect - LightShow/MagicParticle.unity
     guid: 3b6239b326fcc6a4cba3f865e24b7c58
   - enabled: 1
     path: Assets/Create Effects/Particle Effect - Smoke/Scenes/Smoke.unity
