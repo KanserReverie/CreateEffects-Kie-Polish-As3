@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Create Effects/Particle Effect - Fire/Scenes/FlameThrower.unity
     guid: 6f2a0f193b147bd4f844fd5439f5b842
   - enabled: 1
-    path: Assets/Create Effects/Particle Effect - Fireflies Particles/RandomParticleTest.unity
+    path: Assets/Create Effects/Particle Effect - Fireflies Particles/FireFlies.unity
     guid: 4dde830432f6f6849a222bfe8c9adb49
   - enabled: 1
     path: Assets/Create Effects/Particle Effect - LightShow/MagicParticleEffects.unity
