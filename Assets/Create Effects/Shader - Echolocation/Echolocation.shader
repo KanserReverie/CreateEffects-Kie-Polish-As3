@@ -10,7 +10,7 @@ Shader "Custom/Echolocation" {
     SubShader {
         Pass {
             Tags { "RenderType"="Opaque" }
-       
+        
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -42,6 +42,6 @@ Shader "Custom/Echolocation" {
  
             ENDCG
         }
-    }
+    } 
     FallBack "Diffuse"
 }
