@@ -35,7 +35,7 @@ public class Cycle : MonoBehaviour
             // ReSharper disable once StringLastIndexOfIsCultureSpecific.1
             CurrentSceneName = CurrentSceneName.Substring(0, CurrentSceneName.LastIndexOf(end));
 
-        CurrentSceneName = CurrentSceneName.Substring((CurrentSceneName.LastIndexOf("/", StringComparison.Ordinal) + 1));
+        CurrentSceneName = CurrentSceneName.Substring((CurrentSceneName.LastIndexOf("/") + 1));
         SceneName.text = (CurrentSceneName);
     }
 

@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Radius: 14.530101
+    - _Radius: 148.53542
     m_Colors:
     - _Center: {r: 0, g: -0.25, b: -8.33, a: 1}
     - _Color: {r: 1, g: 0, b: 0, a: 1}
