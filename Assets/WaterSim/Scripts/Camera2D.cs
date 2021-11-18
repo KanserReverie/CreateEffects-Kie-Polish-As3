@@ -41,9 +41,5 @@ public class Camera2D: MonoBehaviour
 			CurrentScale = Area.transform.localScale;
 			Set ();	
 		}
-
 	}
-
-
-
 }

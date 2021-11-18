@@ -24,6 +24,7 @@ Shader "Custom/JellyShader"
                 v2f o;
                 v.vertex.x += sign(v.vertex.x) * sin(_Time.w)/5;
                 v.vertex.y += sign(v.vertex.y) * cos(_Time.w)/5;
+                v.vertex.z += sign(v.vertex.z) * sin(_Time.w)/5;
                 o.pos = UnityObjectToClipPos(v.vertex);
                 o.uv = v.texcoord;
                 return o;
