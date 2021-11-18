@@ -76,8 +76,7 @@ public class Cycle : MonoBehaviour
             }
         }
     }
-
-    /// <summary> Basic Quit function to exit the game on "Esc". </summary>
+    
     private void Quit()
     {
         if(Input.GetKeyDown(KeyCode.Escape))

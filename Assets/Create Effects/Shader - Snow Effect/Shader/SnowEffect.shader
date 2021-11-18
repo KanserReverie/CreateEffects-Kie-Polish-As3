@@ -20,6 +20,7 @@ Shader "Custom/SnowEffect"
         sampler2D _Bump;
         half3 _SnowDirection;
         fixed _SnowLevel;
+
  
         struct Input {
             float2 uv_MainTex;
@@ -27,6 +28,8 @@ Shader "Custom/SnowEffect"
             float3 worldNormal;
             INTERNAL_DATA
         };
+
+        
  
         void surf(Input IN, inout SurfaceOutput o)
         {
